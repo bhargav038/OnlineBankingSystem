@@ -1,0 +1,23 @@
+.in{
+    height:22px;
+}
+.lbl{
+    text-align: right;
+}
+.txt1{
+    height:60%;
+}
+.thead{
+	background-color:#06acfa;
+}
+.crow{
+	background-color: #9fdcf9;
+}
+table,tr,td,th{
+	border:1px solid black;
+	border-collapse: collapse;
+	padding:5px;
+        font-family: Segoe UI;
+        text-align: center;
+        margin: auto;
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mule Banking Ststem</title>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="css/dropdown.css" rel="stylesheet" type="text/css">
+        <link href="css/createAccount.css" rel="stylesheet" type="text/css">
+        <script src="js/createAccount.js" type="text/javascript" ></script>
+        
+    </head>
+    <body>
+        <div class="main-out">
+            <div class="main">
+                <div class="page">
+                    <div class="top">
+                        <div class="header">
+                            <div class="header-top">
+                                <div class="head">
+                                    <h1><span>Mule Banking System</span></h1>
+                                </div>
+                                <div style="float:right;margin-top:25px;margin-right: 100px">
+                                    <br />
+                                    <a  class="loginmenu" href="login.html">Login</a>
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <div>
+                                <ul id="menu">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="Aboutus.html">About&nbsp;Us</a></li>
+                                    <li><a href="mission.html">Contact Us</a></li>
+                                </ul>
+                            </div>
+                            <div class="header-img">
+                                <h2>"We Take care of Your Needs..."</h2>
+                            </div>
+                        </div>
+                        <div class="content1">
+                            <div style ="margin-left: 250px;">
+                                <form>
+                                    <table>
+                                        <tr>
+                                            <td class="lbl"><label style="font-size: 20px;font-family: 'Segoe UI';" for="fname">First Name:</label></td>
+                                            <td> <input class="txt1" type="text" id="fname" placeholder="Your First Name" required ></td>
+
+                                        </tr>
+                                        <tr>
+                                            <td class="lbl"><label style="font-size: 20px;font-family: 'Segoe UI';" for="lname">Last Name:</label></td>
+                                            <td> <input class="txt1" type="text" id="lname" placeholder="Your Last Name" required ></td>
+
+                                        </tr>
+                                        <tr>
+
+                                            <td class="lbl"><label for="dob" style="font-size: 20px;font-family: 'Segoe UI';"> Date of Birth:</label></td>
+                                            <td><input class="txt1" type="date" id="dob" required></td>
+
+                                        </tr>
+                                        <tr>
+
+                                            <td class="lbl"><label style="font-size: 20px;font-family: 'Segoe UI';">Gender:</label></td>
+                                            <td><input type="radio" name="gender" value="male">Male&nbsp; &nbsp; 
+                                                <input type="radio" name="gender" value="female">Female</td>
+
+                                        </tr>
+                                        <tr>
+
+                                            <td class="lbl"><label style="font-size: 20px;font-family: 'Segoe UI';">Phone Number:</label> </td>
+                                            <td> <input class="txt1" type="tel" required id="pnum"></td>
+
+                                        </tr>
+                                        <tr>
+
+                                            <td class="lbl"><label style="font-size: 20px;font-family: 'Segoe UI';">700#:</label> </td>
+                                            <td><input class="txt1" type="text" required id="nine"></td>
+
+                                        </tr>
+                                        <tr>
+
+                                            <td class="lbl"><label style="font-size: 20px;font-family: 'Segoe UI';">Student Email:</label></td>
+                                            <td><input class="txt1" type="email" required id="email"></td>
+
+                                        </tr>
+                                        <tr>
+
+                                            <td  class="lbl"><label style="font-size: 20px;font-family: 'Segoe UI';">Address:</label></td>
+                                            <td><textarea id="address"></textarea></td>
+
+                                        </tr>
+                                        <tr>
+
+                                            <td  class="lbl"><label style="font-size: 20px;font-family: 'Segoe UI';">Member:</label></td>
+                                            <td class=""><input type="radio" name="mem" value="stu">Student&nbsp; &nbsp;
+                                                <input type="radio" name="mem" value="fac">Employee</td>
+
+                                        </tr>
+                                        <tr>
+
+                                            <td  class="lbl"><label style="font-size: 20px;font-family: 'Segoe UI';">password:</label></td>
+                                            <td><input class="txt1" type="password" required id="pass"></td>
+
+                                        </tr>
+                                        <tr>
+
+                                            <td class="lbl"><label style="font-size: 20px;font-family: 'Segoe UI';">Confirm Password:</label></td>
+                                            <td> <input class="txt1" type="password" required id="cpass"></td>
+
+
+                                        </tr>
+                                        <tr>
+                                            <td class="lbl"><label for="ques" style="font-size: 20px;font-family: 'Segoe UI';">Security Question:</label></td>
+                                            <td> <select class="txt1" id="ques">
+                                                    <option>----Select Question----</option>
+                                                    <option>What is your favorite place?</option>
+                                                    <option>What is your birth place?</option>
+                                                    <option>What is your favorite game?</option>
+                                                </select>
+                                            </td>
+                                        </tr>
+                                         <tr>
+                                            <td class="lbl"><label for="ans" style="font-size: 20px;font-family: 'Segoe UI';">Answer:</label></td>
+                                            <td> <input class="txt1" type="text" required id="ans"></td>
+                                        </tr>
+                                        <tr>
+
+                                            <td class="lbl"> <input style="width:100px;" type="button" id="register" value="Register"></td>
+                                            <td><input style="width:100px;margin-left: 20px;"  type="button" id="cancel" value="Cancel"></td>
+
+                                        </tr>
+                                    </table>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <ul style="margin-left: 370px">
+                            <li style="border-left: medium none;"><a href="index1.html">Home</a></li>
+                            <li><a href="Aboutus.html">About&nbsp;Us</a></li>
+                            <li><a href="contact.html">Contact US</a></li>
+                        </ul>
+                        <p>Copyright&copy;2015 Mule Banking System, Inc.   -  All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
